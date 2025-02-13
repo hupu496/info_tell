@@ -741,7 +741,7 @@
           });
         });
         </script>
-        <script>
+<!--         <script>
   // Set today's date in the 'regarding' input field
   document.addEventListener("DOMContentLoaded", function () {
     const today = new Date().toISOString().split('T')[0]; // Get today's date in 'YYYY-MM-DD' format
@@ -750,8 +750,7 @@
       regardingInput.value = today;
     }
   });
-</script>
-        <!-- <script type="text/javascript">
+
         	// Set the number of days for the trial
 // Set the number of days for the trial
 const trialPeriod = 6; // 6 days
@@ -778,7 +777,7 @@ expirationDate.setDate(startDate.getDate() + trialPeriod);
 // If the current date is after the expiration date, show the popup and block access
 if (currentDate >= expirationDate) {
   // Display the popup
-  alert("Your trial period has ended. Please connect with the administrator for payment to continue using the website. Basic Price: $2000");
+  alert("Your trial period has ended. Please connect with the administrator for payment to continue using the website. Basic Price: RS2000");
 
   // Optionally, redirect the user to a payment or contact page
   window.location.href = "http://www.yourwebsite.com/contact";
